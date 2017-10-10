@@ -1,0 +1,235 @@
+* {
+	padding: 0;
+	margin:0;
+}
+.container {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.cler {
+	clear: both;
+}
+h1{
+   
+    font-size: 60px;/*размер букв*/ 
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    color: snow;
+    text-shadow: 1px 1px 50px black, 0 0 1em #A5B5FE ; /* Параметры тени */
+}
+.banner-text{
+	padding-top: 50px;
+	text-align: center;
+    padding-bottom: 50px;
+}
+.banner {
+   width: 100%;
+   height: 200px;
+   background-image: url(../img/i.png);/*цвет фона*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   position:relative;
+   border-bottom: 5px #87894a inset;
+  
+}
+.block-text {
+	display: block;
+	height: 10%;
+	width: 50%;
+	margin: 0 auto;
+	
+
+}
+body {
+	background-image: url(../img/i2.png);
+	font-family: 'Oswald', sans-serif;
+}
+.block1 {
+background-color:#532828 ;
+height: 300px;
+width: 80%;
+border:4px red inset;
+border-radius:5px;
+margin-top: 100px;
+margin-left: 10%;
+background: linear-gradient(to top left,#CA6161 ,#532828)
+}
+.crug1 {
+background-image: url(../img/portret/1.jpg) ;
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.text1 {
+
+width: 500px ;
+height: 200px ;
+margin-left: 400px ;
+margin-top: -200px ;
+}
+.crug2 {
+background-image: url(../img/portret/2.jpg);
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.crug3 {
+background-image: url(../img/portret/3.jpeg);
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.crug4 {
+background-image: url(../img/portret/4.png);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.crug5 {
+background-image: url(../img/portret/5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.crug6 {
+background-image: url(../img/portret/6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.crug7 {
+background-image: url(../img/portret/7.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.crug8 {
+background-image: url(../img/portret/8.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+border: 2px black solid;
+height: 200px;
+width: 200px ;
+margin-top:50px ;
+margin-left: 50px;
+border-radius: 100%;
+text-align:center;
+position: relative;
+
+}
+.out{
+  padding-top: 100px;
+}
+.daun {
+   background-image:url(../img/2544438.jpg);/*цвет фона*/
+   border-top: 5px #313131 inset;
+}
+h5 {
+ color: white;
+ display: inline;
+ text-decoration: none;
+}
+h3 {
+     color: white;
+  display: inline;
+}
+h2 {
+  color: white;
+  display: inline;
+ 
+}
+.dauntext1 { 
+margin-left: 5%; 
+height: 100px; 
+margin-top: 25px; 
+width: 90%; 
+} 
+.ima4 {
+ padding-left:10px;
+
+}
+.ima2 {
+  margin-left: 350px;
+}
+.ima3 {
+  padding-left: 150px;
+}
+a {
+  text-decoration: none;
+}
+.ima0{
+  color: black;
+}
+.ima1 {
+  margin-left: 190px;
+}
+.btn-up{
+    position: fixed;
+    right: 2px;
+    bottom: 10px;
+    z-index:1030;
+    background-color:#532828;
+    padding: 10px 0;
+    color: #4696e5;
+    text-decoration: none;
+    display: block;
+    padding:3px 15px;
+    border: 1px red inset;
+    color: red;
+}
