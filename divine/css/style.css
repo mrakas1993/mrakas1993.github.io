@@ -41,7 +41,7 @@ header { background-color: #653C80; position: fixed; top: 0; width: 100%; z-inde
 .pointer_marker img { width: 60px; height: 60px; }
 .pointer_adress h3 { color: #ffffff; font-size: 2.5rem; font-weight: 400; }
 
-.descriptions { background: #DFCD80; }
+.descriptions { background: #CA8BB3; }
 
 .salone { padding-top: 5%; }
 .salone_name h1 { color: #67163E; font-size: 3rem; padding-bottom: 2%; }
@@ -134,6 +134,17 @@ footer { background: #70405E; }
 .price .call h2 { padding-bottom: 2%; }
 .price .call img { width: 4%; }
 .price .call a { color: #ffffff; font-size: 2rem; padding-left: 1%; vertical-align: top; }
+
+.procedures { background: #CA8BB3; }
+.procedures .container h2 { padding-top: 8%; text-align: center; color: #ffffff; font-size: 2rem; }
+.procedures .container .directions { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.procedures .container .directions .item { padding-top: 4%; width: 33%; padding-bottom: 4%; }
+.procedures .container .directions .item_img { text-align: center; }
+.procedures .container .directions .item_img img { width: 20%; }
+.procedures .container .directions .item_description { text-align: center; }
+.procedures .container .directions .item_description h2 { color: #ffffff; font-size: 1.6rem; font-weight: 400; padding-top: 0px; }
+.procedures .container .directions .item_description h2::after { content: ''; display: block; width: 30px; height: 2px; background: #67163E; margin: 10px auto 0; }
+.procedures .container .directions .item_description p { color: #ffffff; font-size: 1.1rem; padding-top: 2%; width: 92%; }
 
 @-webkit-keyframes example { 0% { left: 0px; top: 400px; }
   100% { left: 0px; top: 0px; } }

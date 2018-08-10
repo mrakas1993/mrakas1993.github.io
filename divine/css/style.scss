@@ -1,5 +1,5 @@
 $primy-color:#653C80;
-$font-color:#DFCD80;
+$font-color:#CA8BB3;
 $white:#ffffff;
 $purpe:#67163E;
 $font:'Roboto Slab', serif;
@@ -488,6 +488,56 @@ footer{
 			font-size:2rem;
 			padding-left:1%;
     		vertical-align: top;
+		}
+	}
+}
+.procedures{
+	background: $font-color;
+	.container{
+		h2{
+			padding-top: 8%;
+			text-align:center;
+			color:$white;
+			font-size:2rem;
+		}
+		.directions{
+			display:flex;
+			align-items: flex-start;
+  			flex-wrap: wrap;
+			.item{
+				padding-top:4%;
+				width:33%;
+				padding-bottom:4%;
+				&_img{
+					text-align:center;
+					img{
+						width:20%;
+					}
+				}
+				&_description{
+					text-align:center;
+					h2{
+						color:$white;
+						font-size:1.6rem;
+						font-weight:400;
+						padding-top: 0px;
+					}
+					h2::after{
+						content: '';
+					    display: block;
+					    width: 30px;
+					    height: 2px;
+					    background: $purpe;
+					    margin: 10px auto 0;
+					}
+					p{
+						color:$white;
+						font-size:1.1rem;
+						padding-top: 2%;
+						width: 92%;
+					}
+				}
+			}
 		}
 	}
 }
